@@ -4,7 +4,7 @@ def count_numbers(temp):
     count += 1
     temp //= 10 
   return count
-  
+
 def change_number(temp, count):
   last_digit = temp % 10
   first_digit = temp // 10 ** (count - 1)
